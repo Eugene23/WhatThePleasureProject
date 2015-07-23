@@ -112,7 +112,7 @@ public class MyExpandableAdapter extends BaseExpandableListAdapter {
         });
         return convertView;
     }
-
+//сучара блядь
     @Override
     public boolean isChildSelectable(int groupPosition, int childPosition) {
         // TODO Auto-generated method stub

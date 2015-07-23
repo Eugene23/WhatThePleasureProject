@@ -46,10 +46,10 @@ public class MainActivity3 extends ExpandableListActivity {
 
     // method to add parent Items
     public void setGroupParents() {
-        parentItems.add("Направление1");
-        parentItems.add("Направление2");
-        parentItems.add("Направление3");
-        parentItems.add("Направление4");
+        parentItems.add("РќР°РїСЂР°РІР»РµРЅРёРµ1");
+        parentItems.add("РќР°РїСЂР°РІР»РµРЅРёРµ2");
+        parentItems.add("РќР°РїСЂР°РІР»РµРЅРёРµ3");
+        parentItems.add("РќР°РїСЂР°РІР»РµРЅРёРµ4");
     }
 
     // method to set child data of each parent
@@ -57,37 +57,37 @@ public class MainActivity3 extends ExpandableListActivity {
 
         // Add Child Items for Fruits
         ArrayList<String> child = new ArrayList<String>();
-        child.add("Универ");
-        child.add("Универ");
-        child.add("Универ");
-        child.add("Универ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
 
         childItems.add(child);
 
         // Add Child Items for Flowers
         child = new ArrayList<String>();
-        child.add("Универ");
-        child.add("Универ");
-        child.add("Универ");
-        child.add("Универ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
 
         childItems.add(child);
 
         // Add Child Items for Animals
         child = new ArrayList<String>();
-        child.add("Универ");
-        child.add("Универ");
-        child.add("Универ");
-        child.add("Универ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
 
         childItems.add(child);
 
         // Add Child Items for Birds
         child = new ArrayList<String>();
-        child.add("Универ");
-        child.add("Универ");
-        child.add("Универ");
-        child.add("Универ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
+        child.add("РЈРЅРёРІРµСЂ");
 
         childItems.add(child);
     }
